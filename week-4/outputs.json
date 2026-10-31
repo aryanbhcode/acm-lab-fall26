@@ -1,0 +1,12 @@
+[
+  {
+    "model": "google/gemma-4-31b-it",
+    "output": "As an AI, I cannot predict future sporting events since outcomes depend on unpredictable factors like player trades, injuries, and development. However, teams with established young cores and versatile rosters, such as the Oklahoma City Thunder, are often viewed as strong contenders for future championships.",
+    "tokens": 88
+  },
+  {
+    "model": "nvidia/nemotron-3.5-lightning",
+    "output": "The Denver Nuggets are the favorites to repeat as champions because their championship core, anchored by Nikola Joki\u0107, is built for sustained excellence, and their depth allows them to withstand the inevitable grind of the postseason. However, the Boston Celtics remain the primary threat due to their elite defense and the continued ascension of Jayson Tatum, making them the most likely team to dethrone Denver in a seven-game series.",
+    "tokens": 124
+  }
+]
