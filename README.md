@@ -31,3 +31,14 @@ Run from the repo root:
 ```
 python3 week-4/calls.py
 ```
+
+## Week 5: Basic RAG
+
+`week-5/rag.py` answers NBA Finals questions with retrieval. It picks the
+document that shares the most words with the question, gives it to
+Nemotron 3.5 Lightning, and saves the answers to
+`week-5/outputs.json`.
+
+```
+python3 week-5/rag.py
+```

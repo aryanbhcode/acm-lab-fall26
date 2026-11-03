@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Who won the 2025 NBA Finals, and who was Finals MVP?",
+    "retrieved": 2,
+    "answer": "Oklahoma City Thunder and Shai Gilgeous-Alexander"
+  },
+  {
+    "question": "Are the Denver Nuggets the defending NBA champions after winning the 2024 title?",
+    "retrieved": 0,
+    "answer": "I don't know."
+  },
+  {
+    "question": "Who won the 2026 NBA Finals?",
+    "retrieved": 0,
+    "answer": "I don't know"
+  },
+  {
+    "question": "Who do you think will win the 2027 NBA Finals?",
+    "retrieved": 0,
+    "answer": "I don't know."
+  }
+]
