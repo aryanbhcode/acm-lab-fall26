@@ -1,0 +1,647 @@
+{
+  "accuracy": 0.9093444909344491,
+  "posts_with_header_word": 9,
+  "posts_checked": 20,
+  "results": [
+    {
+      "post": 0,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.724,
+      "explanation": [
+        [
+          "article",
+          -0.089
+        ],
+        [
+          "au",
+          -0.049
+        ],
+        [
+          "guy",
+          -0.021
+        ],
+        [
+          "wrote",
+          -0.019
+        ],
+        [
+          "edu",
+          -0.017
+        ],
+        [
+          "Subject",
+          0.012
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 1,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.726,
+      "explanation": [
+        [
+          "morality",
+          -0.032
+        ],
+        [
+          "clh",
+          0.032
+        ],
+        [
+          "religious",
+          -0.021
+        ],
+        [
+          "atheist",
+          -0.018
+        ],
+        [
+          "don",
+          -0.016
+        ],
+        [
+          "to",
+          0.014
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 2,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.21,
+      "explanation": [
+        [
+          "Keith",
+          -0.056
+        ],
+        [
+          "California",
+          -0.055
+        ],
+        [
+          "writes",
+          -0.041
+        ],
+        [
+          "Schneider",
+          -0.04
+        ],
+        [
+          "Re",
+          -0.037
+        ],
+        [
+          "more",
+          -0.027
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 3,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.862,
+      "explanation": [
+        [
+          "rutgers",
+          0.028
+        ],
+        [
+          "Christians",
+          0.022
+        ],
+        [
+          "the",
+          0.02
+        ],
+        [
+          "athos",
+          0.02
+        ],
+        [
+          "Christ",
+          0.02
+        ],
+        [
+          "God",
+          0.016
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 4,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.414,
+      "explanation": [
+        [
+          "Host",
+          -0.1
+        ],
+        [
+          "NNTP",
+          -0.095
+        ],
+        [
+          "Posting",
+          -0.088
+        ],
+        [
+          "article",
+          -0.029
+        ],
+        [
+          "writes",
+          -0.029
+        ],
+        [
+          "Re",
+          -0.026
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 5,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.884,
+      "explanation": [
+        [
+          "rutgers",
+          0.041
+        ],
+        [
+          "1993",
+          0.025
+        ],
+        [
+          "Christians",
+          0.023
+        ],
+        [
+          "In",
+          -0.02
+        ],
+        [
+          "article",
+          -0.018
+        ],
+        [
+          "humans",
+          -0.017
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 6,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.834,
+      "explanation": [
+        [
+          "Christ",
+          0.021
+        ],
+        [
+          "Re",
+          -0.018
+        ],
+        [
+          "of",
+          0.017
+        ],
+        [
+          "the",
+          0.015
+        ],
+        [
+          "God",
+          0.012
+        ],
+        [
+          "said",
+          -0.011
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 7,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.838,
+      "explanation": [
+        [
+          "In",
+          -0.025
+        ],
+        [
+          "clh",
+          0.024
+        ],
+        [
+          "more",
+          -0.023
+        ],
+        [
+          "Christians",
+          0.023
+        ],
+        [
+          "Christ",
+          0.02
+        ],
+        [
+          "com",
+          -0.02
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 8,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.792,
+      "explanation": [
+        [
+          "sgi",
+          -0.041
+        ],
+        [
+          "Yet",
+          -0.026
+        ],
+        [
+          "clh",
+          0.023
+        ],
+        [
+          "In",
+          -0.021
+        ],
+        [
+          "Christ",
+          0.02
+        ],
+        [
+          "Christians",
+          0.018
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 9,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.472,
+      "explanation": [
+        [
+          "writes",
+          -0.069
+        ],
+        [
+          "de",
+          -0.055
+        ],
+        [
+          "article",
+          -0.037
+        ],
+        [
+          "In",
+          -0.035
+        ],
+        [
+          "Re",
+          -0.034
+        ],
+        [
+          "atheists",
+          -0.03
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 10,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.886,
+      "explanation": [
+        [
+          "rutgers",
+          0.036
+        ],
+        [
+          "article",
+          -0.026
+        ],
+        [
+          "athos",
+          0.023
+        ],
+        [
+          "In",
+          -0.023
+        ],
+        [
+          "Christ",
+          0.022
+        ],
+        [
+          "God",
+          0.021
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 11,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.254,
+      "explanation": [
+        [
+          "Host",
+          -0.096
+        ],
+        [
+          "Posting",
+          -0.075
+        ],
+        [
+          "NNTP",
+          -0.072
+        ],
+        [
+          "writes",
+          -0.048
+        ],
+        [
+          "article",
+          -0.038
+        ],
+        [
+          "Rushdie",
+          -0.036
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 12,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.838,
+      "explanation": [
+        [
+          "the",
+          0.035
+        ],
+        [
+          "In",
+          -0.032
+        ],
+        [
+          "Yet",
+          -0.031
+        ],
+        [
+          "Boswell",
+          0.031
+        ],
+        [
+          "church",
+          0.017
+        ],
+        [
+          "of",
+          0.015
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 13,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.188,
+      "explanation": [
+        [
+          "Host",
+          -0.085
+        ],
+        [
+          "NNTP",
+          -0.07
+        ],
+        [
+          "Posting",
+          -0.07
+        ],
+        [
+          "Distribution",
+          -0.048
+        ],
+        [
+          "writes",
+          -0.043
+        ],
+        [
+          "article",
+          -0.04
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 14,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.824,
+      "explanation": [
+        [
+          "rutgers",
+          0.046
+        ],
+        [
+          "writes",
+          -0.042
+        ],
+        [
+          "athos",
+          0.027
+        ],
+        [
+          "article",
+          -0.021
+        ],
+        [
+          "1993",
+          0.021
+        ],
+        [
+          "God",
+          0.019
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 15,
+      "true_label": "alt.atheism",
+      "p_christianity": 0.658,
+      "explanation": [
+        [
+          "article",
+          -0.06
+        ],
+        [
+          "atheists",
+          -0.033
+        ],
+        [
+          "edu",
+          -0.023
+        ],
+        [
+          "higher",
+          -0.02
+        ],
+        [
+          "than",
+          -0.017
+        ],
+        [
+          "more",
+          -0.016
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 16,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.78,
+      "explanation": [
+        [
+          "religious",
+          -0.025
+        ],
+        [
+          "murder",
+          -0.021
+        ],
+        [
+          "Frank",
+          -0.021
+        ],
+        [
+          "more",
+          -0.015
+        ],
+        [
+          "edu",
+          -0.015
+        ],
+        [
+          "try",
+          -0.014
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 17,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.854,
+      "explanation": [
+        [
+          "Bill",
+          -0.032
+        ],
+        [
+          "system",
+          -0.027
+        ],
+        [
+          "writes",
+          -0.026
+        ],
+        [
+          "God",
+          0.017
+        ],
+        [
+          "humans",
+          -0.015
+        ],
+        [
+          "Re",
+          -0.014
+        ]
+      ],
+      "uses_header_word": true
+    },
+    {
+      "post": 18,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.9,
+      "explanation": [
+        [
+          "the",
+          0.022
+        ],
+        [
+          "God",
+          0.018
+        ],
+        [
+          "love",
+          0.016
+        ],
+        [
+          "in",
+          0.012
+        ],
+        [
+          "and",
+          0.012
+        ],
+        [
+          "of",
+          0.012
+        ]
+      ],
+      "uses_header_word": false
+    },
+    {
+      "post": 19,
+      "true_label": "soc.religion.christian",
+      "p_christianity": 0.706,
+      "explanation": [
+        [
+          "In",
+          -0.062
+        ],
+        [
+          "Re",
+          -0.036
+        ],
+        [
+          "system",
+          -0.031
+        ],
+        [
+          "karma",
+          0.027
+        ],
+        [
+          "religious",
+          -0.024
+        ],
+        [
+          "more",
+          -0.021
+        ]
+      ],
+      "uses_header_word": true
+    }
+  ]
+}

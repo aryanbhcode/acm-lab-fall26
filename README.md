@@ -42,3 +42,14 @@ Nemotron 3.5 Lightning, and saves the answers to
 ```
 python3 week-5/rag.py
 ```
+
+## Week 6: LIME from scratch
+
+`week-6/lime.py` implements LIME from the paper I read and uses it to explain a
+random forest that classifies 20 Newsgroups posts as Atheism or Christianity.
+It also counts how often LIME's top words come only from the email header.
+
+```
+pip install numpy scikit-learn
+python3 week-6/lime.py
+```
