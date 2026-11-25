@@ -53,3 +53,15 @@ It also counts how often LIME's top words come only from the email header.
 pip install numpy scikit-learn
 python3 week-6/lime.py
 ```
+
+## Week 7: Recall experiment
+
+`week-7/recall.py` reproduces the LIME paper's recall experiment (Figures 6 and 7)
+on 20 Newsgroups. It compares Random, Greedy, and LIME on a sparse logistic
+regression and a decision tree, and saves a comparison with the paper's numbers
+to `week-7/recall.png`.
+
+```
+pip install numpy scikit-learn matplotlib
+python3 week-7/recall.py
+```

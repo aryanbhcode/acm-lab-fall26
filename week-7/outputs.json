@@ -1,0 +1,45 @@
+{
+  "k": 10,
+  "num_samples": 5000,
+  "num_docs": 100,
+  "test_accuracy": {
+    "Sparse LR": 0.8242677824267782,
+    "Decision Tree": 0.9232914923291492
+  },
+  "recall": {
+    "Sparse LR": {
+      "Mine (20NG)": {
+        "Random": 7.033333333333333,
+        "Greedy": 79.38333333333333,
+        "LIME": 100.0
+      },
+      "Paper Books": {
+        "Random": 17.4,
+        "Greedy": 64.3,
+        "LIME": 92.1
+      },
+      "Paper DVDs": {
+        "Random": 19.2,
+        "Greedy": 63.4,
+        "LIME": 90.2
+      }
+    },
+    "Decision Tree": {
+      "Mine (20NG)": {
+        "Random": 9.0,
+        "Greedy": 88.0,
+        "LIME": 100.0
+      },
+      "Paper Books": {
+        "Random": 20.6,
+        "Greedy": 37.0,
+        "LIME": 97.0
+      },
+      "Paper DVDs": {
+        "Random": 17.4,
+        "Greedy": 47.6,
+        "LIME": 97.8
+      }
+    }
+  }
+}
