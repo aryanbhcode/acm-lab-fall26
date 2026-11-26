@@ -1,0 +1,21 @@
+Extension: how many perturbed samples does LIME need?  (K = 10, 60 posts per model, seeds [0, 1, 2])
+
+=== Sparse LR: 60 posts, avg 194 distinct words per post, avg 2.6 true words per post
+Samples               50       100       250       500      1000      2500      5000
+LIME recall %       73.1      83.3      97.0      99.4     100.0     100.0     100.0
+  (std)              0.2       2.0       0.5       0.0       0.0       0.0       0.0
+Greedy recall 79.9%   Random recall 6.9%  (these do not depend on samples)
+shortest third (86 words)               86.5      97.9     100.0     100.0     100.0     100.0     100.0
+middle third (172 words)                65.8      76.1      99.2     100.0     100.0     100.0     100.0
+longest third (324 words)               66.8      75.8      91.9      98.2     100.0     100.0     100.0
+Smallest sample size where LIME is at least 90% and at least Greedy: 250
+
+=== Decision Tree: 60 posts, avg 166 distinct words per post, avg 1.0 true words per post
+Samples               50       100       250       500      1000      2500      5000
+LIME recall %       97.8      97.2      99.4     100.0     100.0     100.0     100.0
+  (std)              0.8       2.1       0.8       0.0       0.0       0.0       0.0
+Greedy recall 88.3%   Random recall 8.6%  (these do not depend on samples)
+shortest third (84 words)               98.3      95.0     100.0     100.0     100.0     100.0     100.0
+middle third (149 words)               100.0     100.0     100.0     100.0     100.0     100.0     100.0
+longest third (265 words)               95.0      96.7      98.3     100.0     100.0     100.0     100.0
+Smallest sample size where LIME is at least 90% and at least Greedy: 50

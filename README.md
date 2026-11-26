@@ -65,3 +65,12 @@ to `week-7/recall.png`.
 pip install numpy scikit-learn matplotlib
 python3 week-7/recall.py
 ```
+
+## Week 8: Extension
+
+`week-8/PLAN.md` is the plan. `week-8/extension.py` tests how many perturbed samples LIME needs
+to find the truly important words, and saves its output to `week-8/`.
+
+```
+python3 week-8/extension.py
+```
